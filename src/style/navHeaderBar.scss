@@ -1,14 +1,26 @@
 .nav-header-bar{
     overflow: hidden;
-    background-color: gray;
+    background-color: #a6997e;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-color: #a6997e;
+
+    
 }
 .Contact-information{
-    display: flex;
-    justify-content: space-evenly;
-
+    width: 300px;
+    margin-left: 10px;
+    display: inline-table;
+font-size: small;
 
 }
 .other-links{
-    display: flex;
-    justify-content: space-evenly;
+   display: flex;
+   justify-content: space-evenly;
+}
+.header-img img{
+    border-radius: 25px;
+    margin-left: 25px;;
+    margin-top: 5px;
+    width: 10%;
 }

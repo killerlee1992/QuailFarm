@@ -8,6 +8,7 @@ import About from "./pages/About";
 import NavBar from "./nav/NavBar";
 import Incubation from "./pages/Incubation";
 import cages from "./pages/cages";
+import EggProduction from "./pages/Eggs";
 
 export default class App extends Component {
   render() {
@@ -22,6 +23,7 @@ export default class App extends Component {
               <Route path="/About" component={About} /> 
               <Route path="/Cages" component={cages} /> 
               <Route path="/Incubation" component={Incubation} /> 
+              <Route path="/EggProduction" component={EggProduction} /> 
             </Switch>
             
           </div>

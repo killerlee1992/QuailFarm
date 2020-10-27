@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function()
-{
-   return(
-       <div>
-          Cages
-       </div>
-   );
-}
+ class Cages extends Component {
+   constructor(){
+      super();
+  }
+   render() {
+     return(
+        <div>
+           Cages
+        </div>
+            );
+        }
+    }
+export default Cages

@@ -6,11 +6,19 @@ import React, { Component } from 'react';
   }
    render() {
      return(
+     <div>
+     <div className='Titles'>Cages</div>
         <div className='cages'>
-            <div>Cage 1</div>
-            <div>Cage 2</div>
-            <div>Cage 3</div>
-            <div>Cage 4</div>
+            
+            <div><button>Cage 1</button></div>
+            <div><button>Cage 2</button></div>
+            <div><button>Cage 3</button></div>
+            <div><button>Cage 4</button></div>
+            <div><button>Cage 5</button></div>
+            <div><button>Cage 6</button></div>
+            
+        </div>
+     
         </div>
             );
         }

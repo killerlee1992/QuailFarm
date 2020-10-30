@@ -6,6 +6,7 @@ export default function()
    return(
        <div>
            <div className="About">
+               
               About 
            </div>
            <div className="external-information">

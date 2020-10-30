@@ -11,6 +11,7 @@ import Cleaning from "./pages/Cleaning";
 import About from "./pages/About";
 import Incubation from "./pages/Incubation";
 import EggProduction from "./pages/Eggs";
+import Cages from "./pages/Cages"
 
 
 
@@ -20,7 +21,7 @@ export default class App extends Component {
       <div className="app">
         <Router>
           <div>
-            <NavHeaderBar/>
+            
             <NavBar/>
         
             <Switch>
@@ -29,8 +30,9 @@ export default class App extends Component {
               <Route path="/About" component={About} /> 
               <Route path="/Incubation" component={Incubation} /> 
               <Route path="/EggProduction" component={EggProduction} /> 
+              <Route path="/Cages" component={Cages}/>
             </Switch>
-            
+            <NavHeaderBar/>
           </div>
         </Router>
        

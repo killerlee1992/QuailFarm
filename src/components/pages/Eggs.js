@@ -4,7 +4,8 @@ export default function()
 {
    return(
        <div>
-          Eggs
+          <div className='Titles' >Egg Production</div>
+          
        </div>
    );
 }

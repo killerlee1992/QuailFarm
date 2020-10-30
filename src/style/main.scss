@@ -1,6 +1,13 @@
 .app{
-    background-color: #82634d;
-
+ 
+    .Titles{
+        display: flex;
+        justify-content: center;
+        background-color: #58170D;
+        color: white;
+        height: 20px;
+        width: auto;
+    }
 }
 *,
 *::after,
@@ -10,7 +17,11 @@
     box-sizing: inherit;
     font-family: 'montserrat';
 }
-
 @import 'img';
+@import 'home';
+@import 'button';
+@import 'about';
+@import 'cages';
+
 @import 'navbar';
 @import 'navHeaderBar'
